@@ -1,0 +1,10 @@
+print('='*18)
+print('REAJUSTE SALARIAL')
+print('='*18)
+
+salario = float(input('Informe o salário a sofrer reasjuste: R$ '))
+reajuste = (salario * 15) / 100
+novosal = salario + reajuste
+
+print(f'O salário de R${salario:.2f} ganhou aumento de R${reajuste:.2f}')
+print(f'Totalizando o valor de R${novosal:.2f}')
