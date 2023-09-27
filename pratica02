@@ -1,0 +1,6 @@
+from math import trunc
+
+num = float(input('Insira um número real: '))
+conversor = trunc(num)
+
+print(f'O valor inteiro de {num} é o valor {conversor}')
