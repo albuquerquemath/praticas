@@ -1,0 +1,5 @@
+nome = str(input('Informe um nome: ')).upper()
+nome = nome.split()
+confere = 'SILVA' in nome
+
+print(confere)
