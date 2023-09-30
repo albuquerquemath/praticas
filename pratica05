@@ -1,0 +1,5 @@
+nome = str(input('Insira um nome completo: ')).title().strip()
+nome_completo = nome.split()
+
+print(f'Nome: {nome_completo[0]}')
+print(f'Sobrenome: {nome_completo[len(nome_completo)-1]}')
