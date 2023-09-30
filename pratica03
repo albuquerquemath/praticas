@@ -1,0 +1,5 @@
+cidade = str(input('Digite o nome da cidade: ')).upper()
+cidade = cidade.split()
+confere_cidade = 'SANTO' in cidade[0]
+
+print(confere_cidade)
